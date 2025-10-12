@@ -53,5 +53,21 @@ public class Operadores {
         System.out.println(concatenacao);
         concatenacao = "1"+(1+4+2);
         System.out.println(concatenacao);
-    }   
+
+        // Operadores Unários //
+        // Esses operadores são aplicados juntamente com um outro operador //
+        // aritmético. Eles realizam alguns trabalhos básicos como incrementar, 
+        // decrementar, inverter valores numéricos e booleanos. //
+        int numero = 5;
+        System.out.println("Número original: " + numero);  // Exibe o valor original de numero //
+        System.out.println("Número Positivo: " + + numero);  // Operador unário de positivo que o resultado é 5 // 
+        System.out.println("Número Negativo: " + - numero);  // Operador unário de negação que o resultado é -5 //
+        System.out.println("Número Negativo + ou multiplicado por número -1 negativo: " + - numero * -1);  // Operador unário de decremento que o resultado é 4 //
+        System.out.println("Número Incrementado: " + ++numero);  // Operador unário de incremento que o resultado é 6 //
+        System.out.println("Número Decrementado: " + --numero);  // Operador unário de decremento que o resultado é 5 //
+        boolean verdadeiro = true;
+        System.out.println("Valor original de verdadeiro: " + verdadeiro); // Exibe o valor original de verdadeiro //
+        System.out.println("Valor de verdadeiro invertido: " + !verdadeiro); // Operador unário de negação que inverte o valor booleano //
+        System.out.println("Valor de bitwise: " + ~5); // Operador unário bitwise que inverte os bits do número que seria (∼5=−(5+1)=−6)//
+     }   
 }
