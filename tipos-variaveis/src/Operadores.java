@@ -56,7 +56,7 @@ public class Operadores {
 
         // Operadores Unários //
         // Esses operadores são aplicados juntamente com um outro operador //
-        // aritmético. Eles realizam alguns trabalhos básicos como incrementar, 
+        // aritmético. Eles realizam alguns trabalhos básicos como incrementar, // 
         // decrementar, inverter valores numéricos e booleanos. //
         int numero = 5;
         System.out.println("Número original: " + numero);  // Exibe o valor original de numero //
@@ -68,6 +68,47 @@ public class Operadores {
         boolean verdadeiro = true;
         System.out.println("Valor original de verdadeiro: " + verdadeiro); // Exibe o valor original de verdadeiro //
         System.out.println("Valor de verdadeiro invertido: " + !verdadeiro); // Operador unário de negação que inverte o valor booleano //
-        System.out.println("Valor de bitwise: " + ~5); // Operador unário bitwise que inverte os bits do número que seria (∼5=−(5+1)=−6)//
-     }   
+        System.out.println("Valor de bitwise: " + ~5); // Operador unário bitwise que inverte os bits do número que seria (∼5=−(5+1)=−6) //
+        // ================================================== //
+
+        // Operadores Ternário //
+        // O Operador de Condição Ternária é uma forma resumida para definir uma //  
+        // condição e escolher por um dentre dois valores. Você deve pensar numa // 
+        // condição ternária como se fosse uma condição IF normal, porém, de // 
+        // uma forma em que toda a sua estrutura estará escrita numa única linha. //
+        int a, b, maior;
+        a = 5;
+        b = 10;
+        // é lido como: "Se a é maior que b, então use o valor de a, senão use o valor de b." //
+        maior = (a > b) ? a : b;
+        System.out.println("O maior valor é: " + maior);
+        // ================================================== //
+        // Relacionais //
+        // Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. //
+        // Neste caso, mais precisamente, definem se o operando à esquerda é igual, // 
+        // diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, //
+        // retornando um valor booleano como resultado. //
+
+        // == Quando desejamos verificar se uma variável é IGUAL A outra. //
+        // != Quando desejamos verificar se uma variável é DIFERENTE da outra. //
+        // > Quando desejamos verificar se uma variável é MAIOR QUE a outra. //
+        // >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra. //
+        // < Quando desejamos verificar se uma variável é MENOR QUE outra. //
+        // <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra. //
+        // ComparacaoAvancada.java
+        String nome1 = "JAVA";
+        String nome2 = "JAVA";        
+        System.out.println(nome1 == nome2); //true
+        String nome3 = new String("JAVA");
+        System.out.println(nome1 == nome3); //false
+        String nome4 = nome3;
+        System.out.println(nome3 == nome4); //true
+        // equals na parada //
+        System.out.println(nome1.equals(nome2)); // .equals serve pra nao dar esse tipo de erro serve para comparar 
+                                                 //  variavel literal com obj porem seus conteudos caracteres no 
+                                                 //  caso "bruno", se nao tiver o equals o resultado sera false
+        System.out.println(nome2.equals(nome3)); //
+        System.out.println(nome3.equals(nome4)); //
+        // ================================================== //
+    }
 }
