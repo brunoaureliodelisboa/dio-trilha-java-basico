@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /**
- * <h1>Projeto Simulador de Conta Bancária</h1>
+ * <h2>Projeto Simulador de Conta Bancária</h2>
  * Este projeto simula a criação de uma conta bancária através de interação
  * com o usuário via terminal, coletando dados como número da conta, agência,
  * nome do cliente e saldo inicial.
