@@ -1,6 +1,6 @@
 
 // Condicional encadeada - if //
-public class ControledeFluxocondicionaiEncadeada {
+public class EstruturasCondicionaisEncadeada {
     public static void main(String[] args) {
 
        int idade = 17;

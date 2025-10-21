@@ -1,4 +1,4 @@
-public class ControledefluxocondicionaisTernaria {
+public class EstruturasCondicionaisTernaria {
     public static void main(String[] args) {
         int nota = 21;
         // Se a nota for >= 7, 100.

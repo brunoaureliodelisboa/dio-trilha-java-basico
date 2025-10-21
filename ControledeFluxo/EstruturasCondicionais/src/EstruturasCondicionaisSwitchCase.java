@@ -1,4 +1,4 @@
-public class ControledefluxocondicionaisSwitchCase {
+public class EstruturasCondicionaisSwitchCase {
     public static void main(String[] args) {
         String nota = "8";
         String resultado;

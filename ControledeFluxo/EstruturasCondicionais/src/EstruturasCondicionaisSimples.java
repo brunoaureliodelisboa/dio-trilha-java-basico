@@ -1,6 +1,6 @@
 
 // Condicional simples - if //
-public class ControledeFluxoCondicionaiSimples {
+public class EstruturasCondicionaisSimples {
     public static void main(String[] args) throws Exception {
 
        double saldo = 25.0;

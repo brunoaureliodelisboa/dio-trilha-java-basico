@@ -1,7 +1,7 @@
 // ResultadoEscolar.java
 // Condicional composta - if //
 
-public class ControledeFluxocondicionaiComposta {
+public class EstruturasCondicionaisComposta {
     public static void main(String[] args) {
 
        int nota = 6;

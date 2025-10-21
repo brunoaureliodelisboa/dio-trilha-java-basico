@@ -7,7 +7,7 @@
      // expressão de validação torne-se falsa 
 //}
 
-public class ControldefluxoEstruturasdeRepeticao {
+public class EstruturasdeRepeticao {
 	public static void main(String[] args) throws Exception {
 
 	// Exemplo For //

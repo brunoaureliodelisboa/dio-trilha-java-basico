@@ -1,5 +1,5 @@
 import java.util.ArrayList; // Precisamos importar a classe ArrayList
-public class ControldefluxoEstruturasdeRepeticaoForEach {
+public class EstruturasdeRepeticaoForEach {
 // 1. O MOLDE (A CLASSE)
     // Colocamos 'static' aqui para que ela possa ser usada dentro do 'main'
     static class Produto {
