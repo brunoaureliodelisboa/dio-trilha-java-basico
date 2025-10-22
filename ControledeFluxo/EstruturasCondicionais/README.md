@@ -1,18 +1,30 @@
-## Getting Started
+## Resumo: Estruturas Condicionais em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Os seguintes pontos consolidam as principais formas de controlar o fluxo de execução de um programa com base em condições, utilizando `if`, o operador ternário e `switch-case`.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+### 1. Condicionais Simples, Compostas e Encadeadas (if/else)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A estrutura `if` é a base para a tomada de decisão.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Tipo | Palavra-Chave | Uso e Característica |
+| :--- | :--- | :--- |
+| **Simples** | `if` | Executa um bloco de código **somente** se a condição for verdadeira. No exemplo, o saldo é atualizado **somente** se o `valorSolicitado < saldo`. |
+| **Composta** | `if`, `else` | Define dois caminhos de execução: um para quando a condição é verdadeira (`if`) e outro para quando é falsa (`else`). No exemplo, se `nota >= 7` é "Aprovado", caso contrário (`else`) é "Reprovado". |
+| **Encadeada (Aninhada)** | `if`, `else { if ... }` | Utiliza estruturas `if/else` dentro de outras, permitindo uma lógica mais complexa. O código verifica primeiro a `idade >= 18` e, no `else`, verifica uma condição secundária (`acompanhado == true`) para liberar ou negar a entrada. |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 2. Condicional Ternária
 
-## Dependency Management
+O operador ternário é uma forma concisa de escrever uma condicional composta ou aninhada que retorna um valor.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Estrutura | Símbolos | Uso e Característica |
+| :--- | :--- | :--- |
+| **Aninhada** | `? (if)`, `: (else)` | É um atalho para o `if-else`. No exemplo, é usado um operador ternário aninhado para definir o resultado em três níveis de notas: `resultado = nota >= 7 ? 100 : (nota <= 21 ? 50 : -1);`. |
+
+### 3. Estrutura de Múltipla Escolha (Switch-Case)
+
+A estrutura `switch-case` é ideal para quando há muitas opções a serem verificadas contra um único valor.
+
+| Palavra-Chave | Propósito | Característica |
+| :--- | :---
